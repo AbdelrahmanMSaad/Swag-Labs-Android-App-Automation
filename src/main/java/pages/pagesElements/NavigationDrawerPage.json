@@ -1,0 +1,52 @@
+[
+  {
+    "elementName": "testCloseContainer",
+    "locatorMethod": "AccessibilityId",
+    "locatorValue": "test-Close"
+  },
+  {
+    "elementName": "testCloseBtn",
+    "locatorMethod": "ClassName",
+    "locatorValue": "android.view.ViewGroup"
+  },
+  {
+    "elementName" : "allItemsButton",
+    "locatorMethod" : "Xpath",
+    "locatorValue": "//android.widget.TextView[contains(@text,'ALL ITEMS')]"
+  },
+  {
+    "elementName": "webViewBtn",
+    "locatorMethod": "Xpath",
+    "locatorValue": "//android.widget.TextView[@text=\"WEBVIEW\"]"
+  },
+  {
+    "elementName": "qrCodeScannerBtn",
+    "locatorMethod": "Xpath",
+    "locatorValue": "//android.widget.TextView[@text=\"QR CODE SCANNER\"]"
+  },
+  {
+    "elementName": "geoLocationBtn",
+    "locatorMethod": "Xpath",
+    "locatorValue": "//android.widget.TextView[@text=\"GEO LOCATION\"]"
+  },
+  {
+    "elementName": "drawingBtn",
+    "locatorMethod": "Xpath",
+    "locatorValue": "//android.widget.TextView[@text=\"DRAWING\"]"
+  },
+  {
+    "elementName": "aboutBtn",
+    "locatorMethod": "Xpath",
+    "locatorValue":"//android.widget.TextView[@text=\"ABOUT\"]"
+  },
+  {
+    "elementName": "logoutBtn",
+    "locatorMethod": "Xpath",
+    "locatorValue": "//android.widget.TextView[@text=\"LOGOUT\"]"
+  },
+  {
+    "elementName": "resetAppStateBtn",
+    "locatorMethod": "Xpath",
+    "locatorValue": "//android.widget.TextView[@text=\"RESET APP STATE\"]"
+  }
+]

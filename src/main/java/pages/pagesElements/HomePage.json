@@ -1,0 +1,104 @@
+[
+  {
+    "elementName": "navigationDrawerBtn",
+    "locatorMethod": "Xpath",
+    "locatorValue": "//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"
+  },
+  {
+    "elementName": "appLogo",
+    "locatorMethod": "Xpath",
+    "locatorValue": "//android.widget.FrameLayout[@resource-id=\"android:id/content\"]/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.widget.ImageView[2]"
+  },
+  {
+    "elementName": "cartIcon",
+    "locatorMethod": "AccessibilityId",
+    "locatorValue": "test-Cart"
+  },
+  {
+    "elementName": "cartInnerContainer",
+    "locatorMethod": "Xpath",
+    "locatorValue": "//android.view.ViewGroup[@content-desc=\"test-Cart\"]/android.view.ViewGroup"
+  },
+  {
+    "elementName": "cartText",
+    "locatorMethod": "ClassName",
+    "locatorValue": "android.widget.TextView"
+  },
+  {
+    "elementName": "toggleGridListBtn",
+    "locatorMethod": "AccessibilityId",
+    "locatorValue": "test-Toggle"
+  },
+  {
+    "elementName": "filterBtn",
+    "locatorMethod": "AccessibilityId",
+    "locatorValue": "test-Modal Selector Button"
+  },
+  {
+    "elementName": "allProductsScrollContainer",
+    "locatorMethod": "AccessibilityId",
+    "locatorValue": "test-PRODUCTS"
+  },
+  {
+    "elementName": "allProductsViewContainer",
+    "locatorMethod":"ClassName",
+    "locatorValue": "android.view.ViewGroup"
+  },
+  {
+    "elementName": "productsRowContainer",
+    "locatorMethod":"ClassName",
+    "locatorValue": "android.view.ViewGroup"
+  },
+  {
+    "elementName": "productOuterContainer",
+    "locatorMethod":"ClassName",
+    "locatorValue": "android.view.ViewGroup"
+  },
+  {
+    "elementName": "productViewContainer",
+    "locatorMethod": "AccessibilityId",
+    "locatorValue": "test-Item"
+  },
+  {
+    "elementName": "productInnerViewContainer",
+    "locatorMethod":"ClassName",
+    "locatorValue": "android.view.ViewGroup"
+  },
+  {
+    "elementName": "productImage",
+    "locatorMethod": "ClassName",
+    "locatorValue": "android.widget.ImageView"
+  },
+  {
+    "elementName": "openProductBtn",
+    "locatorMethod": "Xpath",
+    "locatorValue": "//android.widget.TextView[@text=\"\uDB81\uDF41\"]"
+  },
+  {
+    "elementName": "productTitle",
+    "locatorMethod": "AccessibilityId",
+    "locatorValue": "test-Item title"
+  },
+  {
+    "elementName": "productPrice",
+    "locatorMethod": "AccessibilityId",
+    "locatorValue": "test-Price"
+  },
+  {
+    "elementName": "dragHandleButton",
+    "locatorMethod": "AccessibilityId",
+    "locatorValue": "test-Drag Handle"
+  },
+  {
+    "elementName": "addToCartBtn",
+    "locatorMethod": "AccessibilityId",
+    "locatorValue": "test-ADD TO CART"
+  },
+  {
+    "elementName":"removeFromCartBtn",
+    "locatorMethod": "AccessibilityId",
+    "locatorValue": "test-REMOVE"
+  }
+
+
+]

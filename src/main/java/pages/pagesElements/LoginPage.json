@@ -1,0 +1,27 @@
+[
+  {
+    "elementName": "appLogo",
+    "locatorMethod": "Xpath",
+    "locatorValue": "//android.widget.ScrollView[@content-desc=\"test-Login\"]/android.view.ViewGroup/android.widget.ImageView[1]"
+  },
+  {
+    "elementName": "userNameInput",
+    "locatorMethod": "AccessibilityId",
+    "locatorValue": "test-Username"
+  },
+  {
+    "elementName": "passwordInput",
+    "locatorMethod": "AccessibilityId",
+    "locatorValue": "test-Password"
+  },
+  {
+    "elementName": "loginBtn",
+    "locatorMethod": "AccessibilityId",
+    "locatorValue": "test-LOGIN"
+  },
+  {
+    "elementName": "appImage",
+    "locatorMethod": "Xpath",
+    "locatorValue":"//android.widget.ScrollView[@content-desc=\"test-Login\"]/android.view.ViewGroup/android.widget.ImageView[2]"
+  }
+]

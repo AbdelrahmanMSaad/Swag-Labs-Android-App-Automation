@@ -1,0 +1,57 @@
+[
+  {
+    "elementName": "navigationDrawerBtn",
+    "locatorMethod": "Xpath",
+    "locatorValue": "//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"
+  },
+  {
+    "elementName": "appLogo",
+    "locatorMethod": "Xpath",
+    "locatorValue": "//android.widget.FrameLayout[@resource-id=\"android:id/content\"]/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.widget.ImageView[2]"
+  },
+  {
+    "elementName": "cartIcon",
+    "locatorMethod": "AccessibilityId",
+    "locatorValue": "test-Cart"
+  },
+  {
+    "elementName": "cartInnerContainer",
+    "locatorMethod": "Xpath",
+    "locatorValue": "//android.view.ViewGroup[@content-desc=\"test-Cart\"]/android.view.ViewGroup"
+  },
+  {
+    "elementName": "cartText",
+    "locatorMethod": "ClassName",
+    "locatorValue": "android.widget.TextView"
+  },
+  {
+    "elementName": "backToProductsBtn",
+    "locatorMethod": "AccessibilityId",
+    "locatorValue": "test-BACK TO PRODUCTS"
+  },
+  {
+    "elementName": "productContainer",
+    "locatorMethod": "AccessibilityId",
+    "locatorValue": "test-Inventory item page"
+  },
+  {
+    "elementName": "productDescription",
+    "locatorMethod": "AccessibilityId",
+    "locatorValue": "test-Description"
+  },
+  {
+    "elementName": "productPrice",
+    "locatorMethod": "AccessibilityId",
+    "locatorValue": "test-Price"
+  },
+  {
+    "elementName": "addToCartBtn",
+    "locatorMethod": "AccessibilityId",
+    "locatorValue": "test-ADD TO CART"
+  },
+  {
+    "elementName":"removeFromCartBtn",
+    "locatorMethod": "AccessibilityId",
+    "locatorValue": "test-REMOVE"
+  }
+]
